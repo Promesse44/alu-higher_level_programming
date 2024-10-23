@@ -10,6 +10,7 @@ if __name__ == "__main__":
     mul = mul(a, b)
     div = div(a, b)
 
-    output = "{} + {} = {}\n{} - {} = {}\n{} * {} = {}\n{} / {} = {}".format(a, b, add, a, b, sub, a, b, mul, a, b, div)
+    output = "{} + {} = {}\n{} - {} = {}\n{} * {} = {}\n{} / {} = {}"
+    .format(a, b, add, a, b, sub, a, b, mul, a, b, div)
 
     print(output)

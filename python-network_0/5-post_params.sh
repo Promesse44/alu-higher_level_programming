@@ -1,3 +1,3 @@
 #!/bin/bash
-# Script to send a GET request to URL and display the body of the response with a custom header
-curl -sH "X-School-User-Id: 98" "$1"
+# sends the POST, displays the body of the response
+curl -s "$1" -X POST -d "email=test@gmail.com&subject=I will always be here for PLD"
